@@ -30,7 +30,7 @@ export default function Header() {
 				<div className="d-flex flex-wrap align-items-center justify-content-between">
 					<Link href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
 						<img className="me-2" src="/logo_white.svg" height="50px" width="50px" />
-						<h3 className="ff-shirkhand mb-0">Agustin Forero</h3>
+						<h2 className="ff-shirkhand mb-0">Agustin G. Forero</h2>
 					</Link>
 					<div className="d-flex flex-row">
 						<Link href="/contact" className={(router.asPath === "/contact") ? "d-none" : "d-flex" + " text-decoration-none"}>

@@ -3,15 +3,15 @@ export default function getPagesMap() {
     return {
         "/": {
             "name": "Home", 
-            "icon": "HouseHeartFill"
+            "icon": "HouseDoorFill"
         },
         "/about": {
             "name": "About", 
-            "icon": "InfoSquareFill"
+            "icon": "InfoCircleFill"
         },
         "/contact": {
             "name": "Contact", 
-            "icon": "ChatFill"
+            "icon": "ChatDotsFill"
         },
         "/resume": {
             "name": "Resume", 
