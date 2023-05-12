@@ -34,7 +34,7 @@ export default function Header() {
 					</Link>
 					<div className="d-flex flex-row">
 						<Link href="/contact" className={(router.asPath === "/contact") ? "d-none" : "d-flex" + " text-decoration-none"}>
-							<div className="btn btn-outline-warning me-2">
+							<div className="btn btn-outline-warning me-3">
 								Contact
 							</div>
 						</Link>
