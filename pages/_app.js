@@ -11,14 +11,13 @@ export default function App({ Component, pageProps }) {
 		require("bootstrap/dist/js/bootstrap.bundle.min.js")
 	}, [])
 	return (
-		<div className='cool-background text-white' style={{ minHeight: "100vh", maxWidth: "100vw" }}>
+		<div className='bg-cool text-white' style={{ minHeight: "100vh", maxWidth: "100vw" }}>
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
 			<Layout>
 				<Component {...pageProps} />
 			</Layout>
-
 		</div>
 	)
 }
