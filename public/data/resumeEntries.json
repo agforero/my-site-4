@@ -44,7 +44,8 @@
             "title": "InterSystems Container Repository",
             "org": "InterSystems, Inc.",
             "date": "Sep-Nov 2022",
-            "desc": "[Link to website](https://containers.intersystems.com/contents)\n\nFor this project with the Release Engineering department, my coworker [Jackson Bibbens](https://www.linkedin.com/in/jackson-bibbens-73a27b204/) and I created a repository to view all Docker images InterSystems has published. Jackson created the backend using [Express.js](https://expressjs.com/), while I used [Next.js](https://nextjs.org/) to build the front-end.\n\nUsers can log in to access Docker images private to their viewing priveleges, such as images reserved for paying customers or internal employees.\n\nThe website takes advantage of Next's excellent [browser router support](https://nextjs.org/docs/routing/introduction) to allow for [shallow routing](https://nextjs.org/docs/routing/shallow-routing). This allows the URL to update dynamically as the user browses the site, without fully reloading the page. This enables the user to move back and forth through their browsing history on the site, automatically tracing previously-accessed Docker image \"information cards\", while simultaneously making it easier for customers to share these cards with coworkers."
+            "desc": "For this project with the Release Engineering department, my coworker [Jackson Bibbens](https://www.linkedin.com/in/jackson-bibbens-73a27b204/) and I created a repository to view all Docker images InterSystems has published. Jackson created the backend using [Express.js](https://expressjs.com/), while I used [Next.js](https://nextjs.org/) to build the front-end.\n\nUsers can log in to access Docker images private to their viewing priveleges, such as images reserved for paying customers or internal employees.\n\nThe website takes advantage of Next's excellent [browser router support](https://nextjs.org/docs/routing/introduction) to allow for [shallow routing](https://nextjs.org/docs/routing/shallow-routing). This allows the URL to update dynamically as the user browses the site, without fully reloading the page. This enables the user to move back and forth through their browsing history on the site, automatically tracing previously-accessed Docker image \"information cards\", while simultaneously making it easier for customers to share these cards with coworkers.",
+            "link": "https://containers.intersystems.com/contents"
         },
         {
             "title": "HealthShare Error Message Redesign",
@@ -56,55 +57,64 @@
             "title": "Complex Mobile App Prototype",
             "org": "Cornell Tech",
             "date": "Jan-May 2022",
-            "desc": "[Link to project](https://github.com/agforero/NAANProject)\n\nAs a part of my enrollment in Cornell Tech's [BigCo Studio Course](https://tech.cornell.edu/studio/curriculum/bigco-studio/), our Studio Team worked with representatives of [Complex](https://www.complex.com/) to help them with marketing strategies. Complex was looking to strengthen their presence in younger audiences (specifically Generation Z), and was looking for a solution to target these users effectively. After some research and design, our team concluded that a mobile app would be best for engaging with younger audiences.\n\nIn order demonstrate a proof-of-concept to Complex, our team designed a mid-fi prototype for the mobile app using Figma, which I later built into a high-fidelity prototype using React Native."
+            "desc": "As a part of my enrollment in Cornell Tech's [BigCo Studio Course](https://tech.cornell.edu/studio/curriculum/bigco-studio/), our Studio Team worked with representatives of [Complex](https://www.complex.com/) to help them with marketing strategies. Complex was looking to strengthen their presence in younger audiences (specifically Generation Z), and was looking for a solution to target these users effectively. After some research and design, our team concluded that a mobile app would be best for engaging with younger audiences.\n\nIn order demonstrate a proof-of-concept to Complex, our team designed a mid-fi prototype for the mobile app using Figma, which I later built into a high-fidelity prototype using React Native.",
+            "link": "https://github.com/agforero/NAANProject"
         },
         {
             "title": "Independent Research: Demystifying the Computer",
             "org": "Cornell Tech",
             "date": "Jan-May 2022",
-            "desc": "[Link to project](https://github.com/agforero/Cornell-Independent-Research-2022)\n\nThis was an Independent Research (INFO 7900) project conducted for Cornell under the advisement of Dr. Tapan Parikh. For eleven weeks, I taught Monday and Wednesday lectures at the Roosevelt Island Senior Center detailing how to use contemporary technologies, in combination with context on the history and development of the modern computer."
+            "desc": "This was an Independent Research (INFO 7900) project conducted for Cornell under the advisement of Dr. Tapan Parikh. For eleven weeks, I taught Monday and Wednesday lectures at the Roosevelt Island Senior Center detailing how to use contemporary technologies, in combination with context on the history and development of the modern computer.",
+            "link": "https://github.com/agforero/Cornell-Independent-Research-2022"
         },
         {
             "title": "Protein Analysis Tool",
             "org": "University of Wisconsin-Madison",
             "date": "Dec 2020-Mar 2021",
-            "desc": "[Link to project](https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/GraphAnalysis)\n\nThis was a Tkinter-based application that graphs networks of human and SARS-CoV-2 proteins. The user is able to input a certain human protein, specify parameters dictating maximum depth and width of layers, and find ultimate connections to viral proteins. They can also choose to output generated graphs to a comma-separated values (.csv) table, or directly to [Cytoscape](https://cytoscape.org/), a popular bioinformatics software.\n\nThis tool is important for discovering which human proteins to target with medicine: if a given human protein has large amounts of direct (or indirect) interactions with SARS-CoV-2 proteins, it should be targeted for inhibition by pharmaceuticals."
+            "desc": "This was a Tkinter-based application that graphs networks of human and SARS-CoV-2 proteins. The user is able to input a certain human protein, specify parameters dictating maximum depth and width of layers, and find ultimate connections to viral proteins. They can also choose to output generated graphs to a comma-separated values (.csv) table, or directly to [Cytoscape](https://cytoscape.org/), a popular bioinformatics software.\n\nThis tool is important for discovering which human proteins to target with medicine: if a given human protein has large amounts of direct (or indirect) interactions with SARS-CoV-2 proteins, it should be targeted for inhibition by pharmaceuticals.",
+            "link": "https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/GraphAnalysis"
         },
         {
             "title": "Protein Frequency Heatmap",
             "org": "University of Wisconsin-Madison",
             "date": "Dec 2020-Mar 2021",
-            "desc": "[Link to project](https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap)\n\nFor Dr. Mark Craven's research on SARS-CoV-2, this was a Seaborn-based heatmap that listed which human proteins were found across different studies, timestamps and cell lines. A good explanation for the sorting algorithm I created (which I think is pretty cool) can be found [here](https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap#understanding-the-heatmap)."
+            "desc": "For Dr. Mark Craven's research on SARS-CoV-2, this was a Seaborn-based heatmap that listed which human proteins were found across different studies, timestamps and cell lines. A good explanation for the sorting algorithm I created (which I think is pretty cool) can be found [here](https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap#understanding-the-heatmap).",
+            "link": "https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap"
         },
         {
             "title": "Fortran Testing Framework",
             "org": "Argonne National Laboratory",
             "date": "May-Aug 2020",
-            "desc": "[Link to project](https://github.com/agforero/FTFramework)\n\nThis is a framework written in Python and Bash for testing bleeding-edge Fortran compilers against stable counterparts like [gfortran](https://gcc.gnu.org/wiki/GFortran). The framework operates by testing the compilation of hundreds of Fortran files across two different compilers before viewing differing outcomes. If a stable compiler like gfortran picks up a bug that a bleeding-edge compiler does not (or vice versa), it may be indicative of an issue with the bleeding-edge compiler."
+            "desc": "This is a framework written in Python and Bash for testing bleeding-edge Fortran compilers against stable counterparts like [gfortran](https://gcc.gnu.org/wiki/GFortran). The framework operates by testing the compilation of hundreds of Fortran files across two different compilers before viewing differing outcomes. If a stable compiler like gfortran picks up a bug that a bleeding-edge compiler does not (or vice versa), it may be indicative of an issue with the bleeding-edge compiler.",
+            "link": "https://github.com/agforero/FTFramework"
         },
         {
             "title": "nSTREAM",
             "org": "Argonne National Laboratory",
             "date": "May-Aug 2020",
-            "desc": "[Link to project](https://github.com/agforero/nSTREAM)\n\nThis is a fork of [STREAM](https://github.com/jeffhammond/STREAM), itself written by [Jeff Hammond](https://github.com/jeffhammond). This is a simple tool that links together Fortran output to a Python matplotlib-based graphing tool. We used it to benchmark the memory bandwith of Argonne's HPC systems, specifically their Skylake computers."
+            "desc": "This is a fork of [STREAM](https://github.com/jeffhammond/STREAM), itself written by [Jeff Hammond](https://github.com/jeffhammond). This is a simple tool that links together Fortran output to a Python matplotlib-based graphing tool. We used it to benchmark the memory bandwith of Argonne's HPC systems, specifically their Skylake computers.",
+            "link": "https://github.com/agforero/nSTREAM"
         },
         {
             "title": "Senior Capstone Project",
             "org": "St. Olaf College",
             "date": "Sep-Dec 2020",
-            "desc": "[Link to project](https://github.com/agforero/Capstone-2020)\n\nFor this project, I worked with two other seniors at St. Olaf College to investigate the use of collaborative learning when developing graph traversal algorithm teaching tools. I programmed a C++ backend to simulate Dijkstra's Algorithm running on randomly generated graphs, before sending them over to our React front-end as JSON packets."
+            "desc": "For this project, I worked with two other seniors at St. Olaf College to investigate the use of collaborative learning when developing graph traversal algorithm teaching tools. I programmed a C++ backend to simulate Dijkstra's Algorithm running on randomly generated graphs, before sending them over to our React front-end as JSON packets.",
+            "link": "https://github.com/agforero/Capstone-2020"
         },
         {
             "title": "Supplemental Instruction Lectures",
             "org": "St. Olaf College",
             "date": "Feb-May 2020",
-            "desc": "[Link to lecture materials](https://github.com/agforero/SI-PLANNING/)\n\nI worked as a [Supplemental Instruction](https://en.wikipedia.org/wiki/Supplemental_instruction) Mentor during my sixth semester at St. Olaf College. I taught night classes for the College's introductory Python course ([CS121](https://wp.stolaf.edu/cs/overview-of-cs-courses/#CS1)), teaching three one-hour sessions per week. Things got pretty weird when COVID hit (as you might be able to imagine), but I was able to transition over to Google Meet without too much interruption."
+            "desc": "I worked as a [Supplemental Instruction](https://en.wikipedia.org/wiki/Supplemental_instruction) Mentor during my sixth semester at St. Olaf College. I taught night classes for the College's introductory Python course ([CS121](https://wp.stolaf.edu/cs/overview-of-cs-courses/#CS1)), teaching three one-hour sessions per week. Things got pretty weird when COVID hit (as you might be able to imagine), but I was able to transition over to Google Meet without too much interruption.",
+            "link": "https://github.com/agforero/SI-PLANNING"
         },
         {
             "title": "Oleville",
             "org": "St. Olaf College",
             "date": "Sep 2020-May 2021",
-            "desc": "[Link to website](https://www.oleville.com/)\n\nAs part of my responsibilities as the Chief Technology Officer (CTO) of Student Government Association (SGA), I rebuilt SGA's website from the ground-up using Wix. I designed the website to use embeds from Google Drive documents as much as possible so that fellow SGA representatives could update key information without needing to learn any web design whatsoever.\n\nI also recorded every design decision I made while creating the new page, and later explained these decisions in private YouTube videos for future CTOs. My main focus was to prolong the lifespan of this new website as long as possible, since the old Oleville had fallen victim to deprecation due to lack of documentation and focus."
+            "desc": "As part of my responsibilities as the Chief Technology Officer (CTO) of Student Government Association (SGA), I rebuilt SGA's website from the ground-up using Wix. I designed the website to use embeds from Google Drive documents as much as possible so that fellow SGA representatives could update key information without needing to learn any web design whatsoever.\n\nI also recorded every design decision I made while creating the new page, and later explained these decisions in private YouTube videos for future CTOs. My main focus was to prolong the lifespan of this new website as long as possible, since the old Oleville had fallen victim to deprecation due to lack of documentation and focus.",
+            "link": "https://www.oleville.com/"
         }
     ],
     "Languages and Technologies": [

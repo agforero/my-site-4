@@ -1,7 +1,5 @@
+import { LinkSharp } from "react-ionicons";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-
-/* TODO: take in an optional "link" k/v pair from resumeEntries.json and pass it here,
-then if it exists, have it as a clickable link icon. */
 
 export default function ResumeSectionEntry({ entryData, toggleNum }) {
 	return (
@@ -10,7 +8,16 @@ export default function ResumeSectionEntry({ entryData, toggleNum }) {
 				<h2 className="accordion-header" id={`panelsStayOpen-heading-${toggleNum}`}>
 					<button className="accordion-button collapsed shadow-none bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target={`#panelsStayOpen-collapse-${toggleNum}`} aria-expanded="true" aria-controls={`panelsStayOpen-collapse-${toggleNum}`}>
 						<div className="d-flex flex-row justify-content-between w-100 pe-3">
-							<span><b>{entryData.title}</b> {'/' + '/'} {entryData.org}</span>
+							<span>
+								<b>{entryData.title}</b>
+								{' /' + '/ '}
+								{entryData.org}
+								{ entryData.link &&
+									<a href={entryData.link} target="_blank" rel="noreferrer">
+										<LinkSharp className="ms-2 text-warning" color={""}/>
+									</a>
+								}
+							</span>
 							<p className="mb-0">{entryData.date}</p>
 						</div>
 					</button>

@@ -10,14 +10,11 @@ export default function ResumeSection({ section, sectionData, toggleNum }) {
 	const [entries, setEntries] = useState([])
 	const normalDisp = (section !== "Languages and Technologies")
 	useEffect(() => {
-		const entriesBuilder = []
-		sectionData.map((entry, j) => {
-			entriesBuilder.push(
-				(normalDisp) ?
-					<ResumeSectionEntry key={j} entryData={entry} toggleNum={uniqueNum(toggleNum, j)} /> :
-					<ResumeSectionEntryLanguage key={j} skill={entry} toggleNum={uniqueNum(toggleNum, j)} />
-			)
-		})
+		const entriesBuilder = sectionData.map((entry, j) => 
+			(normalDisp) ?
+				<ResumeSectionEntry key={j} entryData={entry} toggleNum={uniqueNum(toggleNum, j)} /> :
+				<ResumeSectionEntryLanguage key={j} skill={entry} toggleNum={uniqueNum(toggleNum, j)} />
+		)
 		setEntries(entriesBuilder)
 	}, [])
 

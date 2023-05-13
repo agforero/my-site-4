@@ -30,7 +30,6 @@ export default function Header() {
 					<Link href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
 						<img className="me-3" src="/logo_white.svg" height="50px" width="50px" alt="AGForero Logo" />
 						<h3 className="mb-0 ff-space-mono">Agustin G. Forero</h3>
-						
 					</Link>
 					<div className="d-flex flex-row ff-space-mono">
 						<Link href="/contact" className={(router.asPath === "/contact") ? "d-none" : "d-flex" + " text-decoration-none"}>
