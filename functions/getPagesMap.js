@@ -3,35 +3,35 @@ export default function getPagesMap() {
     return {
         "/": {
             "name": "Home", 
-            "icon": "HouseDoorFill"
+            "icon": "HomeSharp"
         },
         "/about": {
             "name": "About", 
-            "icon": "InfoCircleFill"
+            "icon": "InformationSharp"
         },
         "/contact": {
             "name": "Contact", 
-            "icon": "ChatDotsFill"
+            "icon": "ChatboxEllipsesSharp"
         },
         "/resume": {
             "name": "Resume", 
-            "icon": "JournalText"
+            "icon": "ReaderSharp"
         },
         "/projects": {
             "name": "Projects", 
-            "icon": "ConeStriped"
+            "icon": "HammerSharp"
         },
         "/teaching": {
             "name": "Teaching", 
-            "icon": "EaselFill"
+            "icon": "EaselSharp"
         },
         "/art": {
             "name": "Art", 
-            "icon": "PaletteFill"
+            "icon": "ColorPaletteSharp"
         },
         "/fun-facts": {
             "name": "Fun Facts", 
-            "icon": "EmojiSunglassesFill"
+            "icon": "PlanetSharp"
         },
     }
 }
