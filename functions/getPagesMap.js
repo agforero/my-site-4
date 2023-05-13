@@ -7,7 +7,7 @@ export default function getPagesMap() {
         },
         "/about": {
             "name": "About", 
-            "icon": "InformationSharp"
+            "icon": "InformationCircleOutline"
         },
         "/contact": {
             "name": "Contact", 
