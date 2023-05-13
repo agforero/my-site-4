@@ -39,8 +39,8 @@ export default function Header() {
 							</div>
 						</Link>
 						<div>
-							<button type="button" className="btn btn-warning dropdown-toggle d-inline-block" data-bs-toggle="dropdown" aria-expanded="false">
-								{thisPage["name"]}
+							<button type="button" className="btn btn-warning dropdown-toggle d-flex flex-row" data-bs-toggle="dropdown" aria-expanded="false">
+								<p className="mb-0 me-1">{thisPage["name"]}</p>
 							</button>
 							<ul className="dropdown-menu dropdown-menu-dark">
 								{pagesButtons}

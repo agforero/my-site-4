@@ -44,6 +44,11 @@ code {
 	border-radius: 1px !important;
 }
 
+.dropdown-toggle::after {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 .dropdown-menu {
 	border-radius: 1px !important;
 }
