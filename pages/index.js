@@ -20,7 +20,7 @@ export default function Home() {
 				<p>Inquiries can be directed to <a href="mailto:agf48@cornell.edu">agf48@cornell.edu</a>, or you can reach out to me at my <a href="https://www.linkedin.com/in/afor/" target="_blank" rel="noreferrer">LinkedIn profile</a>. Thank you for visiting.</p>
 				<div className='mt-4'>
 					<Link href="/resume">
-						<div className='btn btn-light me-3'>
+						<div className='btn btn-warning me-3'>
 							Interactive Resume
 						</div>
 					</Link>
