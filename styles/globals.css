@@ -57,8 +57,21 @@ code {
 	background-image: url("../public/chevron-down-white.svg") !important;
 }
 
+.bg-cool::before {
+	content: "";
+	background-image: url("../public/noise.svg");
+	background-repeat: repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.1;
+	pointer-events: none;
+}
+
 /* shoutout to gradient-animator.com for making this so easy */
-.cool-background {
+.bg-cool {
 	background: linear-gradient(30deg, #258f0a, #2a40d4);
     background-size: 400% 400%;
 
