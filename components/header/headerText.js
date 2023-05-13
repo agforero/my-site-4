@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import * as Icons from 'react-bootstrap-icons';
+import getIconFromName from '../global/getIconFromName';
 
 export default function HeaderText({ href="#", name, icon }) {
-	const Icon = Icons[icon]
+	const Icon = getIconFromName(icon)
 	return (
 		<span>
 			<Link className="dropdown-item" href={href}>

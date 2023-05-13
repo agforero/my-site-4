@@ -1,6 +1,7 @@
 import Header from "../header/header";
 
 export default function Layout({ children }) {
+	const internalPadding = "150px"
 	return (
 		<>
 			<div className="sticky-top">
@@ -10,9 +11,11 @@ export default function Layout({ children }) {
 					</div>
 				</div>
 			</div>
-			<div className="d-flex flex-column justify-content-center" style={{minHeight: "100vh"}}>
-				<div className="container">
-					{children}
+			<div className="d-flex" style={{minHeight: "100vh"}}>
+				<div className="container my-auto" style={{paddingTop: internalPadding, paddingBottom: internalPadding}}>
+					<div className="my-auto" style={{}}>
+						{children}
+					</div>
 				</div>
 			</div>
 		</>

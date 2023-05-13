@@ -1,8 +1,32 @@
 import PageHeader from '@/components/global/pageHeader'
 import Head from 'next/head'
-import Image from 'next/image'
+import { useState, useEffect } from 'react'
+import axios from 'axios'
+import ResumeSection from '@/components/resume/index/resumeSection'
 
 export default function Resume() {
+	const [resumeData, setResumeData] = useState({})
+
+	useEffect(() => {
+		const fetchData = async () => {
+			await axios.get("/data/resumeEntries.json")
+				.then(result => setResumeData(result.data))
+				.catch(error => console.log(error))
+		};
+		fetchData();
+	}, [])
+
+	const [sections, setSections] = useState([])
+	useEffect(() => {
+		const sectionsBuilder = []
+		Object.keys(resumeData).map((section, i) => {
+			sectionsBuilder.push(
+				<ResumeSection key={i} section={section} sectionData={resumeData[section]} toggleNum={i}/>
+			)
+		})
+		setSections(sectionsBuilder)
+	}, [resumeData])
+
 	return (
 		<>
 			<Head>
@@ -13,6 +37,7 @@ export default function Resume() {
 			</Head>
 			<main>
 				<PageHeader>Resume</PageHeader>
+				{ sections }
 			</main>
 		</>
 	)

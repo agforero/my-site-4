@@ -1,7 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Instrument+Sans);
+@import url(https://fonts.googleapis.com/css?family=Instrument+Sans|Space+Mono);
 
 * {
 	font-family: Instrument Sans, Arial, Helvetica, sans-serif;
+	letter-spacing: 0.042em;
 }
 
 @font-face {
@@ -14,12 +15,12 @@
 	align-self: center;
 }
 
-.footer-button-name {
-	font-family: "Press Start 2P";
-}
-
 .ff-shirkhand {
 	font-family: Shirkhand, 'Times New Roman', Times, serif;
+}
+
+.ff-space-mono {
+	font-family: "Space Mono", 'Courier New', Courier, monospace
 }
 
 a {
@@ -32,15 +33,28 @@ a:hover {
 
 p > a:hover {
 	background-color: rgba(0, 0, 0, 0.3);
-	border-radius: 4px;
+	border-radius: 1px;
 }
 
 code {
 	color: white !important;
 }
 
+.btn {
+	border-radius: 1px !important;
+}
+
+.dropdown-menu {
+	border-radius: 1px !important;
+}
+
 .header-blur {
 	backdrop-filter: blur(10px);
+}
+
+.accordion-button:after {
+	/* background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; */
+	background-image: url("../public/chevron-up-white.svg") !important;
 }
 
 /* shoutout to gradient-animator.com for making this so easy */
