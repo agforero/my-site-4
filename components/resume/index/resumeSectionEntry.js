@@ -1,5 +1,8 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
+/* TODO: take in an optional "link" k/v pair from resumeEntries.json and pass it here,
+then if it exists, have it as a clickable link icon. */
+
 export default function ResumeSectionEntry({ entryData, toggleNum }) {
 	return (
 		<>
