@@ -1,8 +1,39 @@
+import ContactButton from '@/components/contact/contactButton'
 import PageHeader from '@/components/global/pageHeader'
 import Head from 'next/head'
-import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 export default function Contact() {
+	const contactButtonData = [
+		{
+			"name": "Email",
+			"icon": "MailSharp",
+			"href": "mailto:agf48@cornell.edu",
+			"noBlank": true
+		},
+		{
+			"name": "LinkedIn",
+			"icon": "LogoLinkedin",
+			"href": "https://www.linkedin.com/in/afor/"
+		},
+		{
+			"name": "GitHub",
+			"icon": "LogoGithub",
+			"href": "https://github.com/agforero"
+		}
+	]
+
+	const [contactButtons, setContactButtons] = useState([])
+	useEffect(() => {
+		const contactButtonsBuilder = []
+		contactButtonData.map((entry, i) => {
+			contactButtonsBuilder.push(
+				<ContactButton key={i} buttonData={entry}/>
+			)
+		})
+		setContactButtons(contactButtonsBuilder)
+	}, [])
+
 	return (
 		<>
 			<Head>
@@ -13,6 +44,9 @@ export default function Contact() {
 			</Head>
 			<main>
 				<PageHeader>Contact</PageHeader>
+				<div className='d-flex flex-row'>
+					{ contactButtons }
+				</div>
 			</main>
 		</>
 	)
