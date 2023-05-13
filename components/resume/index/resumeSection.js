@@ -25,7 +25,7 @@ export default function ResumeSection({ section, sectionData, toggleNum }) {
 		<div className="my-5">
 			<h1>{section}</h1>
 			{ (normalDisp) ?
-				<div className="accordion accordion-flush" id="resume-accordion">
+				<div className="accordion accordion-flush" id={`resume-accordion-${toggleNum}`}>
 					{entries}
 				</div> :
 				<ul className="list-group list-group-flush bg-transparent text-white">
