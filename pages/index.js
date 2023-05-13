@@ -29,11 +29,6 @@ export default function Home() {
 							Projects
 						</div>
 					</Link>
-					<Link href="/contact">
-						<div className='btn btn-outline-light'>
-							Contact
-						</div>
-					</Link>
 				</div>
 			</main>
 		</>
