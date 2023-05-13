@@ -28,7 +28,7 @@ export default function Header() {
 			<div className="container pb-3 border-bottom">
 				<div className="d-flex flex-wrap align-items-center justify-content-between">
 					<Link href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-						<img className="me-3" src="/logo_white.svg" height="50px" width="50px" />
+						<img className="me-3" src="/logo_white.svg" height="50px" width="50px" alt="AGForero Logo" />
 						<h3 className="mb-0 ff-space-mono">Agustin G. Forero</h3>
 						
 					</Link>

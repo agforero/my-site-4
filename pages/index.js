@@ -13,7 +13,7 @@ export default function Home() {
 			</Head>
 			<main>
 				<PageHeader>Home</PageHeader>
-				<p>Hello, and welcome to my page. My name is Agustin and I'm a Release Engineer at InterSystems, Inc.</p>
+				<p>Hello, and welcome to my page. My name is Agustin and I&apos;m a Release Engineer at InterSystems, Inc.</p>
 				<p>I have a rich background working in software design, research and teaching. My recent work has mostly centered around front-end design using React, Next.js and Bootstrap.</p>
 				<p>I graduated in 2021 from St. Olaf College with a double major Bachelor of Arts in Computer Science and History. I then earned my Master of Engineering in Computer Science from Cornell Tech, a school of Cornell University, graduating in 2022.</p>
 				<p>Here you will find some information about me: my professional experience, education, projects, resume, and even some art.</p>
