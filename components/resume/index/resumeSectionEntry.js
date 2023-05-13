@@ -14,14 +14,13 @@ export default function ResumeSectionEntry({ entryData, toggleNum }) {
 				</h2>
 				<div id={`panelsStayOpen-collapse-${toggleNum}`} className="accordion-collapse collapse" aria-labelledby={`panelsStayOpen-heading-${toggleNum}`}>
 					<div className="accordion-body border-top py-0">
-						<ReactMarkdown 
-							// children={entryData.desc}
+						<ReactMarkdown
 							linkTarget="_blank"
 							components={{
 								p: ({node, ...props}) => <p className="my-3" {...props} />
 							}} 
 						>
-							entryData.desc
+							{entryData.desc}
 						</ReactMarkdown>
 					</div>
 				</div>
