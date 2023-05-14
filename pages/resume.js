@@ -3,6 +3,8 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import ResumeSection from '@/components/resume/index/resumeSection'
+import Link from 'next/link'
+import BootstrapDisplaySwitch from '@/components/global/bootstrapDisplaySwitch'
 
 export default function Resume() {
 	const [resumeData, setResumeData] = useState({})
@@ -18,12 +20,14 @@ export default function Resume() {
 
 	const [sections, setSections] = useState([])
 	useEffect(() => {
-		const sectionsBuilder = []
-		Object.keys(resumeData).map((section, i) => {
-			sectionsBuilder.push(
-				<ResumeSection key={i} section={section} sectionData={resumeData[section]} toggleNum={i}/>
-			)
-		})
+		const sectionsBuilder = Object.keys(resumeData).map((section, i) => 
+			<ResumeSection 
+				key={i} 
+				section={section} 
+				sectionData={resumeData[section]} 
+				toggleNum={i}
+			/>
+		)
 		setSections(sectionsBuilder)
 	}, [resumeData])
 
@@ -37,6 +41,16 @@ export default function Resume() {
 			</Head>
 			<main>
 				<PageHeader>Resume</PageHeader>
+				<div className='d-flex flex-row justify-content-between'>
+					<p className='my-auto'>Click the entries below to view more information.</p>
+					<Link
+						href="https://docs.google.com/document/d/1nyW-eC_wzjLBGYVyJPTtvo1EU5e4sOp4sUTdfCymbyE/export?format=pdf"
+						className='btn btn-warning text-dark text-decoration-none'
+						target="_blank"
+					>
+						View Resume As PDF
+					</Link>
+				</div>
 				{ sections }
 			</main>
 		</>

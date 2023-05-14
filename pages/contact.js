@@ -25,12 +25,9 @@ export default function Contact() {
 
 	const [contactButtons, setContactButtons] = useState([])
 	useEffect(() => {
-		const contactButtonsBuilder = []
-		contactButtonData.map((entry, i) => {
-			contactButtonsBuilder.push(
-				<ContactButton key={i} buttonData={entry}/>
-			)
-		})
+		const contactButtonsBuilder = contactButtonData.map((entry, i) => 
+			<ContactButton key={i} buttonData={entry}/>
+		)
 		setContactButtons(contactButtonsBuilder)
 	}, [])
 
@@ -44,6 +41,7 @@ export default function Contact() {
 			</Head>
 			<main>
 				<PageHeader>Contact</PageHeader>
+				<p>Feel free to reach out to me at any of the following mediums. I&apos;ll try to answer as soon as I can.</p>
 				<div className='d-flex flex-row'>
 					{ contactButtons }
 				</div>
