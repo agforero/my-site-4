@@ -1,7 +1,7 @@
 import Header from "../header/header";
 
 export default function Layout({ children }) {
-	const internalPadding = "150px"
+	const internalPadding = "100px"
 	return (
 		<>
 			<div className="sticky-top">

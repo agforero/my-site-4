@@ -24,7 +24,7 @@ export default function Header() {
 	})
 
 	return (
-		<header className="p-3 pb-0 bg-transparent text-white z-index-master header-blur">
+		<header className="p-3 pb-0 bg-transparent text-white z-index-master header-blur" style={{height: "85px"}}>
 			<div className="container pb-3 border-bottom">
 				<div className="d-flex flex-wrap align-items-center justify-content-between">
 					<Link href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">

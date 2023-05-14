@@ -40,6 +40,16 @@ code {
 	color: white !important;
 }
 
+.text-transparent {
+	background: linear-gradient(30deg, #258f0a, #2a40d4);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.border-sharp {
+	border-radius: 1px !important;
+}
+
 .btn {
 	border-radius: 1px !important;
 }

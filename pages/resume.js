@@ -8,7 +8,6 @@ import BootstrapDisplaySwitch from '@/components/global/bootstrapDisplaySwitch'
 
 export default function Resume() {
 	const [resumeData, setResumeData] = useState({})
-
 	useEffect(() => {
 		const fetchData = async () => {
 			await axios.get("/data/resumeEntries.json")

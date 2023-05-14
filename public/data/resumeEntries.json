@@ -41,6 +41,18 @@
 	],
 	"Projects": [
 		{
+			"title": "Apprentice",
+			"org": "InterSystems, Inc.",
+			"date": "Jan 2023 - Present",
+			"desc": "Essentially, push a button, get a limited-lifespan virtual machine. A handy UI to deploy a virtual machine onto one of InterSystems' vCenter instances. This tool is internal to InterSystems.\n\nAllows the user to specify specs for their new machine, including RAM, CPUs and operating system, as well as select templates to deploy their virtual machine from. I developed the front end of this project using Next.js and Bootstrap 5, though I also built parts of the back end using ObjectScript."
+		},
+		{
+			"title": "ML202",
+			"org": "InterSystems, Inc.",
+			"date": "Jan 2023 - Present",
+			"desc": "A four-part class on showcasing the power of machine learning within InterSystems' stack. I helped write the curriculum and teach the course, which will be showcased at the InterSystems Global Summit in Hollywood, Florida this summer.\n\nMy portion of the class features a Jupyter notebook that uses data taken out of an InterSystems IRIS database. Students use XGBoost to built gradient-boosted decision trees, and libraries like Matplotlib and Pandas to help with model interpretation and data comprehension."
+		},
+		{
 			"title": "InterSystems Container Repository",
 			"org": "InterSystems, Inc.",
 			"date": "Sep - Nov 2022",
@@ -64,7 +76,7 @@
 			"title": "Independent Research: Demystifying the Computer",
 			"org": "Cornell Tech",
 			"date": "Jan - May 2022",
-			"desc": "This was an Independent Research (INFO 7900) project conducted for Cornell under the advisement of Dr. Tapan Parikh. For eleven weeks, I taught Monday and Wednesday lectures at the Roosevelt Island Senior Center detailing how to use contemporary technologies, in combination with context on the history and development of the modern computer.",
+			"desc": "This was an Independent Research (INFO 7900) project conducted for Cornell under Dr. Tapan Parikh. For eleven weeks, I taught Monday and Wednesday lectures at the Roosevelt Island Senior Center detailing how to use contemporary technologies, in combination with context on the history and development of the modern computer.",
 			"link": "https://github.com/agforero/Cornell-Independent-Research-2022"
 		},
 		{
