@@ -17,10 +17,8 @@ export default function App({ Component, pageProps }) {
 	const router = useRouter()
 	useEffect(() => {
 		if (!router.isReady) { return } else {
-			console.log(router)
 			if (router.query) {
 				const fbclid = router.query.fbclid ? router.query.fbclid : ""
-				console.log(fbclid)
 			}
 		}
 	}, [router])
