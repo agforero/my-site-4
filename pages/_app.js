@@ -15,7 +15,9 @@ export default function App({ Component, pageProps }) {
 
 	// fix annoying fbclid thing that prevents opening from IG
 	const router = useRouter()
-	const fbclid = router.params.fbclid ? router.params.fbclid : ""
+	if (router.params) {
+		const fbclid = router.params.fbclid ? router.params.fbclid : ""
+	}
 	
 	return (
 		<div className='bg-cool text-white' style={{ minHeight: "100vh", maxWidth: "100vw" }}>
