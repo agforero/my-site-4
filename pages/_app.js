@@ -15,9 +15,15 @@ export default function App({ Component, pageProps }) {
 
 	// fix annoying fbclid thing that prevents opening from IG
 	const router = useRouter()
-	if (router.params) {
-		const fbclid = router.params.fbclid ? router.params.fbclid : ""
-	}
+	useEffect(() => {
+		if (!router.isReady) { return } else {
+			console.log(router)
+			if (router.query) {
+				const fbclid = router.query.fbclid ? router.query.fbclid : ""
+				console.log(fbclid)
+			}
+		}
+	}, [router])
 	
 	return (
 		<div className='bg-cool text-white' style={{ minHeight: "100vh", maxWidth: "100vw" }}>
