@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import ResumeSection from '@/components/resume/index/resumeSection'
 import Link from 'next/link'
+import BootstrapDisplaySwitch from '@/components/global/bootstrapDisplaySwitch'
 
 export default function Resume() {
 	const [resumeData, setResumeData] = useState({})

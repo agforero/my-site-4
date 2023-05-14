@@ -3,13 +3,13 @@
         {
             "title": "MEng Computer Science",
             "org": "Cornell University",
-            "date": "Aug 2021-May 2022",
+            "date": "Aug 2021 - May 2022",
             "desc": "I attended Cornell Tech, Cornell University's technology-focused campus in New York City, for my Master of Engineering in Computer Science from 2021 to 2022. (GPA: 4.0)"
         },
         {
             "title": "BA Computer Science and History",
             "org": "St. Olaf College",
-            "date": "Sep 2017-May 2021",
+            "date": "Sep 2017 - May 2021",
             "desc": "I attended St. Olaf College for my Bachelor of Arts in Computer Science and History from 2017 to 2021. (GPA: 3.5)"
         }
     ],
@@ -17,25 +17,25 @@
         {
             "title": "Release Engineer",
             "org": "InterSystems, Inc.",
-            "date": "Jul 2022-Present",
+            "date": "Jul 2022 - Present",
             "desc": "I work as a Release Engineer at [Intersystems, Inc](https://www.intersystems.com/). I work on the Testing Automation Environments (TAE) Team, which is responsible for maintaining testing environments for the Quality Development department. We are also responsible for internal consulting work building tools that help other teams work faster, building software suites and interfaces that automate or speed up their production cycles.\n\nI am the Lead Designer on the team, responsible for deciding how our projects look, and which frameworks we use to implement their interfaces (when applicable). My favorite front-end tools are [Figma](https://www.figma.com/) and [Next.js](https://nextjs.org/) for mid-fi prototypes and web design respectively."
         },
         {
             "title": "Program Manager and Instructor",
             "org": "Inspirit AI",
-            "date": "May 2021-Jun 2022",
+            "date": "May 2021 - Jun 2022",
             "desc": "From May of 2021 to June of 2022, I worked as a Program Manager and Instructor at Inspirit AI. Inspirit brings together computer science experts from the Ivy League, MIT and Stanford to teach high schoolers all about machine learning and Python. I have taught hundreds of students between 8th and 12th grade, and kept watch over classrooms to ensure my fellow Instructors were teaching well."
         },
         {
             "title": "Research Aide",
             "org": "University of Wisconsin-Madison",
-            "date": "Dec 2020-Mar 2021",
+            "date": "Dec 2020 - Mar 2021",
             "desc": "For this internship, I worked with [Dr. Mark Craven](https://www.biostat.wisc.edu/~craven/) of the University of Wisconsin-Madison Department of Biostatistics and Medical Informatics to help with research on COVID-19. Alongside two other St. Olaf Computer Science students, I created software to help UW-Madison biologists analyze human and SARS-CoV-2 proteins critical to the infection process.\n\nI developed two programs to assist with UW-Madison's research, both listed below. The first was a Seaborn-based heatmap that listed which proteins were found across different studies, timestamps and cell lines. A good explanation for the sorting algorithm can be found [here](https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap#understanding-the-heatmap).\n\nThe second tool was a bit more involved: a Tkinter-based application that graphs networks of human and SARS-CoV-2 proteins. The user is able to select a certain human protein, specify parameters dictating maximum depth and width of layers, and find ultimate connections to viral proteins. They can also choose to output generated graphs to a comma-separated values (.csv) table, or directly to [Cytoscape](https://cytoscape.org/), a popular bioinformatics software.\n\nThis tool is important for discovering which human proteins to target with medicine: if a given human protein has large amounts of direct (or indirect) interactions with SARS-CoV-2 proteins, it should be targeted for inhibition by pharmaceuticals."
         },
         {
             "title": "Research Assistant",
             "org": "Argonne National Laboratory",
-            "date": "May-Aug 2020",
+            "date": "May - Aug 2020",
             "desc": "For this internship, I built a framework (the Fortran Testing Framework, listed below) in Python and Bash for testing Fortran compilers against stable counterparts like [gfortran](https://gcc.gnu.org/wiki/GFortran). The framework operates by testing the compilation of hundreds of Fortran files across two different compilers before viewing differing outcomes. If a stable compiler like gfortran picks up a bug that a bleeding-edge compiler does not (or vice versa), it may be indicative of an issue with the bleeding-edge compiler.\n\nAt the end of the term, I led a seminar on my research findings and methodology to The Computing, Environment and Life Sciences Directorate at Argonne. Ultimately, I was selected by Argonne to represent the facility at 2021 SIAM Computational Science and Engineering Conference.\n\nOne of my proudest moments was discovering that [people outside Argonne were talking about the Framework](https://fortran-lang.discourse.group/t/fortran-compiler-testing-framework/1573) nearly a year later!"
         }
     ],
@@ -43,76 +43,76 @@
         {
             "title": "InterSystems Container Repository",
             "org": "InterSystems, Inc.",
-            "date": "Sep-Nov 2022",
+            "date": "Sep - Nov 2022",
             "desc": "For this project with the Release Engineering department, my coworker [Jackson Bibbens](https://www.linkedin.com/in/jackson-bibbens-73a27b204/) and I created a repository to view all Docker images InterSystems has published. Jackson created the backend using [Express.js](https://expressjs.com/), while I used [Next.js](https://nextjs.org/) to build the front-end.\n\nUsers can log in to access Docker images private to their viewing priveleges, such as images reserved for paying customers or internal employees.\n\nThe website takes advantage of Next's excellent [browser router support](https://nextjs.org/docs/routing/introduction) to allow for [shallow routing](https://nextjs.org/docs/routing/shallow-routing). This allows the URL to update dynamically as the user browses the site, without fully reloading the page. This enables the user to move back and forth through their browsing history on the site, automatically tracing previously-accessed Docker image \"information cards\", while simultaneously making it easier for customers to share these cards with coworkers.",
             "link": "https://containers.intersystems.com/contents"
         },
         {
             "title": "HealthShare Error Message Redesign",
             "org": "InterSystems, Inc.",
-            "date": "Jul-Sep 2022",
+            "date": "Jul - Sep 2022",
             "desc": "For this project with the HealthShare department, I was tasked with redesigning errors ouputted by [our HealthShare product](https://www.intersystems.com/interoperability-platform/) when clients enter their [HL7 messages](https://en.wikipedia.org/wiki/Health_Level_7). I converted the error messages from a loose collection of strings to a standardized format that followed a very specific format, allowing hospital IT teams to use whichever analysis tools at their disposal to calculate error frequency and causes. This cuts down dramatically on HealthShare installation times on the hospital's behalf."
         },
         {
             "title": "Complex Mobile App Prototype",
             "org": "Cornell Tech",
-            "date": "Jan-May 2022",
+            "date": "Jan - May 2022",
             "desc": "As a part of my enrollment in Cornell Tech's [BigCo Studio Course](https://tech.cornell.edu/studio/curriculum/bigco-studio/), our Studio Team worked with representatives of [Complex](https://www.complex.com/) to help them with marketing strategies. Complex was looking to strengthen their presence in younger audiences (specifically Generation Z), and was looking for a solution to target these users effectively. After some research and design, our team concluded that a mobile app would be best for engaging with younger audiences.\n\nIn order demonstrate a proof-of-concept to Complex, our team designed a mid-fi prototype for the mobile app using Figma, which I later built into a high-fidelity prototype using React Native.",
             "link": "https://github.com/agforero/NAANProject"
         },
         {
             "title": "Independent Research: Demystifying the Computer",
             "org": "Cornell Tech",
-            "date": "Jan-May 2022",
+            "date": "Jan - May 2022",
             "desc": "This was an Independent Research (INFO 7900) project conducted for Cornell under the advisement of Dr. Tapan Parikh. For eleven weeks, I taught Monday and Wednesday lectures at the Roosevelt Island Senior Center detailing how to use contemporary technologies, in combination with context on the history and development of the modern computer.",
             "link": "https://github.com/agforero/Cornell-Independent-Research-2022"
         },
         {
             "title": "Protein Analysis Tool",
             "org": "University of Wisconsin-Madison",
-            "date": "Dec 2020-Mar 2021",
+            "date": "Dec 2020 - Mar 2021",
             "desc": "This was a Tkinter-based application that graphs networks of human and SARS-CoV-2 proteins. The user is able to input a certain human protein, specify parameters dictating maximum depth and width of layers, and find ultimate connections to viral proteins. They can also choose to output generated graphs to a comma-separated values (.csv) table, or directly to [Cytoscape](https://cytoscape.org/), a popular bioinformatics software.\n\nThis tool is important for discovering which human proteins to target with medicine: if a given human protein has large amounts of direct (or indirect) interactions with SARS-CoV-2 proteins, it should be targeted for inhibition by pharmaceuticals.",
             "link": "https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/GraphAnalysis"
         },
         {
             "title": "Protein Frequency Heatmap",
             "org": "University of Wisconsin-Madison",
-            "date": "Dec 2020-Mar 2021",
+            "date": "Dec 2020 - Mar 2021",
             "desc": "For Dr. Mark Craven's research on SARS-CoV-2, this was a Seaborn-based heatmap that listed which human proteins were found across different studies, timestamps and cell lines. A good explanation for the sorting algorithm I created (which I think is pretty cool) can be found [here](https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap#understanding-the-heatmap).",
             "link": "https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/Heatmap"
         },
         {
             "title": "Fortran Testing Framework",
             "org": "Argonne National Laboratory",
-            "date": "May-Aug 2020",
+            "date": "May - Aug 2020",
             "desc": "This is a framework written in Python and Bash for testing bleeding-edge Fortran compilers against stable counterparts like [gfortran](https://gcc.gnu.org/wiki/GFortran). The framework operates by testing the compilation of hundreds of Fortran files across two different compilers before viewing differing outcomes. If a stable compiler like gfortran picks up a bug that a bleeding-edge compiler does not (or vice versa), it may be indicative of an issue with the bleeding-edge compiler.",
             "link": "https://github.com/agforero/FTFramework"
         },
         {
             "title": "nSTREAM",
             "org": "Argonne National Laboratory",
-            "date": "May-Aug 2020",
+            "date": "May - Aug 2020",
             "desc": "This is a fork of [STREAM](https://github.com/jeffhammond/STREAM), itself written by [Jeff Hammond](https://github.com/jeffhammond). This is a simple tool that links together Fortran output to a Python matplotlib-based graphing tool. We used it to benchmark the memory bandwith of Argonne's HPC systems, specifically their Skylake computers.",
             "link": "https://github.com/agforero/nSTREAM"
         },
         {
             "title": "Senior Capstone Project",
             "org": "St. Olaf College",
-            "date": "Sep-Dec 2020",
+            "date": "Sep - Dec 2020",
             "desc": "For this project, I worked with two other seniors at St. Olaf College to investigate the use of collaborative learning when developing graph traversal algorithm teaching tools. I programmed a C++ backend to simulate Dijkstra's Algorithm running on randomly generated graphs, before sending them over to our React front-end as JSON packets.",
             "link": "https://github.com/agforero/Capstone-2020"
         },
         {
             "title": "Supplemental Instruction Lectures",
             "org": "St. Olaf College",
-            "date": "Feb-May 2020",
+            "date": "Feb - May 2020",
             "desc": "I worked as a [Supplemental Instruction](https://en.wikipedia.org/wiki/Supplemental_instruction) Mentor during my sixth semester at St. Olaf College. I taught night classes for the College's introductory Python course ([CS121](https://wp.stolaf.edu/cs/overview-of-cs-courses/#CS1)), teaching three one-hour sessions per week. Things got pretty weird when COVID hit (as you might be able to imagine), but I was able to transition over to Google Meet without too much interruption.",
             "link": "https://github.com/agforero/SI-PLANNING"
         },
         {
             "title": "Oleville",
             "org": "St. Olaf College",
-            "date": "Sep 2020-May 2021",
+            "date": "Sep 2020 - May 2021",
             "desc": "As part of my responsibilities as the Chief Technology Officer (CTO) of Student Government Association (SGA), I rebuilt SGA's website from the ground-up using Wix. I designed the website to use embeds from Google Drive documents as much as possible so that fellow SGA representatives could update key information without needing to learn any web design whatsoever.\n\nI also recorded every design decision I made while creating the new page, and later explained these decisions in private YouTube videos for future CTOs. My main focus was to prolong the lifespan of this new website as long as possible, since the old Oleville had fallen victim to deprecation due to lack of documentation and focus.",
             "link": "https://www.oleville.com/"
         }
@@ -139,13 +139,13 @@
         {
             "title": "Simons Graduate Scholarship",
             "org": "Cornell University",
-            "date": "2021-2022",
+            "date": "2021 - 2022",
             "desc": "A prestigious scholarship presented by Cornell in recognition of significant academic accomplishment."
         },
         {
             "title": "Open Door Scholarship",
             "org": "St. Olaf College",
-            "date": "2018-2021",
+            "date": "2018 - 2021",
             "desc": "A scholarship for Computer Science students of color who demonstrate scholastic achievement."
         },
         {
@@ -157,7 +157,7 @@
         {
             "title": "Dean's List",
             "org": "St. Olaf College",
-            "date": "2020-2021",
+            "date": "2020 - 2021",
             "desc": "For students achieving a GPA of 3.75 or above while enrolled in at least three credits. Earned both semesters Senior year."
         }
     ],
@@ -165,25 +165,25 @@
         {
             "title": "Member",
             "org": "Society for Industrial and Applied Mathematics",
-            "date": "Mar 2021-Present",
+            "date": "Mar 2021 - Present",
             "desc": "Presented Argonne research findings at the 2021 Computational Science and Engineering Conference."
         },
         {
             "title": "Chief Technology Officer",
             "org": "St. Olaf Student Government Association",
-            "date": "Mar 2021-Present",
+            "date": "Aug 2020 - May 2021",
             "desc": "Remade [Oleville.com](https://www.oleville.com/), the website for St. Olaf's Student Government Association (SGA), from the ground up using Wix. Held elections on Oleville for the 2021-2022 Student Government candidates, including the creation of a voting system and candidate profile page."
         },
         {
             "title": "Co-Founder and Vice President",
             "org": "Algorithms Club at St. Olaf",
-            "date": "Feb 2020-May 2021",
+            "date": "Feb 2020 - May 2021",
             "desc": "Prepared math and computer science students for algorithmic questions found in technical interviews."
         },
         {
             "title": "Member",
             "org": "Phi Alpha Theta",
-            "date": "Nov 2019-Present",
+            "date": "Nov 2019 - Present",
             "desc": "Phi Alpha Theta is a nationally-recognized honor society whose mission is to promote the study of history by encouraging research, publication, and the exchange of ideas among historians."
         }
     ]
