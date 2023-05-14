@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
 	}, [])
 	return (
 		<div className='bg-cool text-white' style={{ minHeight: "100vh", maxWidth: "100vw" }}>
+			<link rel="icon" href="http://www.agforero.com/favicon.ico" />
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
