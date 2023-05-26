@@ -17,8 +17,8 @@ export default function App({ Component, pageProps }) {
 	const router = useRouter()
 	useEffect(() => {
 		if (!router.isReady) { return } else {
-			if (router.query) {
-				const fbclid = router.query.fbclid ? router.query.fbclid : ""
+			if (router.query && router.query["fbclid"]) {
+				window.location = "https://www.agforero.com/"
 			}
 		}
 	}, [router])
