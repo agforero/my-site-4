@@ -43,7 +43,7 @@ export default function Resume() {
 				<div className='d-flex flex-row justify-content-between'>
 					<p className='my-auto'>Click the entries below to view more information.</p>
 					<Link
-						href="https://docs.google.com/document/d/1nyW-eC_wzjLBGYVyJPTtvo1EU5e4sOp4sUTdfCymbyE/export?format=pdf"
+						href="https://docs.google.com/document/d/1-zvnJQfrnIYeDVrd0XLqI6Dsdb2Ptlm4kAcGBpK0lS0/export?format=pdf"
 						className='btn btn-warning text-dark text-decoration-none'
 						target="_blank"
 					>
