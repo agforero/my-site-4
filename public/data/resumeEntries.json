@@ -84,7 +84,8 @@
 			"org": "University of Wisconsin-Madison",
 			"date": "Dec 2020 - Mar 2021",
 			"desc": "This was a Tkinter-based application that graphs networks of human and SARS-CoV-2 proteins. The user is able to input a certain human protein, specify parameters dictating maximum depth and width of layers, and find ultimate connections to viral proteins. They can also choose to output generated graphs to a comma-separated values (.csv) table, or directly to [Cytoscape](https://cytoscape.org/), a popular bioinformatics software.\n\nThis tool is important for discovering which human proteins to target with medicine: if a given human protein has large amounts of direct (or indirect) interactions with SARS-CoV-2 proteins, it should be targeted for inhibition by pharmaceuticals.",
-			"link": "https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/GraphAnalysis"
+			"link": "https://github.com/Craven-Biostat-Lab/SARS-CoV-2-Analysis/tree/main/code/GraphAnalysis",
+			"video": "j4AnKeTuuAk"
 		},
 		{
 			"title": "Protein Frequency Heatmap",
@@ -98,7 +99,8 @@
 			"org": "Argonne National Laboratory",
 			"date": "May - Aug 2020",
 			"desc": "This is a framework written in Python and Bash for testing bleeding-edge Fortran compilers against stable counterparts like [gfortran](https://gcc.gnu.org/wiki/GFortran). The framework operates by testing the compilation of hundreds of Fortran files across two different compilers before viewing differing outcomes. If a stable compiler like gfortran picks up a bug that a bleeding-edge compiler does not (or vice versa), it may be indicative of an issue with the bleeding-edge compiler.",
-			"link": "https://github.com/agforero/FTFramework"
+			"link": "https://github.com/agforero/FTFramework",
+			"video": "iNEwXP_pYqg"
 		},
 		{
 			"title": "nSTREAM",
