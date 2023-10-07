@@ -1,6 +1,6 @@
 import PageHeader from "@/components/global/pageHeader";
 import Head from "next/head";
-import ReactConfetti from "react-confetti";
+import ConfettiExplosion from "react-confetti-explosion";
 
 export default function HappyBirthdayZeke() {
     return (
@@ -12,8 +12,12 @@ export default function HappyBirthdayZeke() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <ReactConfetti />
-                <PageHeader>HAPPY BIRTHDAY ZEKE</PageHeader>
+                <div className="d-flex flex-column">
+                    <div className="mx-auto">
+                        <ConfettiExplosion force={1} duration={10000} particleCount={250} width={2000} />
+                    </div>
+                    <PageHeader>HAPPY BIRTHDAY ZEKE</PageHeader>
+                </div>
                 <p className="lead">Wow! It&apos;s your birthday! That&apos;s so exhilarating. What are you now, 21? 34? 69? Lol!</p>
                 <p>Anyways, happy birthday, Zeke. You are now 24 years old. Some fun facts about the number 24:</p>
                 <ul>
