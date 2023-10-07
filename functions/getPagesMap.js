@@ -33,5 +33,9 @@ export default function getPagesMap() {
             "name": "Fun Facts", 
             "icon": "PlanetSharp"
         },
+        "/happy-birthday-zeke": {
+            "name": "HAPPY BIRTHDAY ZEKE",
+            "icon": "GiftSharp"
+        }
     }
 }

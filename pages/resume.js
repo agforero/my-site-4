@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import ResumeSection from '@/components/resume/index/resumeSection'
 import Link from 'next/link'
-import BootstrapDisplaySwitch from '@/components/global/bootstrapDisplaySwitch'
 
 export default function Resume() {
 	const [resumeData, setResumeData] = useState({})
@@ -41,7 +40,7 @@ export default function Resume() {
 			<main>
 				<PageHeader>Resume</PageHeader>
 				<div className='d-flex flex-row justify-content-between'>
-					<p className='my-auto'>Click the entries below to view more information.</p>
+					<p className='my-auto d-lg-flex d-md-flex d-sm-none d-none'>Click the entries below to view more information.</p>
 					<Link
 						href="https://docs.google.com/document/d/1-zvnJQfrnIYeDVrd0XLqI6Dsdb2Ptlm4kAcGBpK0lS0/export?format=pdf"
 						className='btn btn-warning text-dark text-decoration-none'
